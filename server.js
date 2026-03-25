@@ -15,7 +15,7 @@ const corsOptions = {
   origin: (origin, callback) => {
     const allowedOrigins = [
       'http://localhost:5173',
-      process.env.FRONTEND_URL || 'http://localhost:5173'
+      "https://dodge-ai-frontend.vercel.app/"
     ];
     
     if (!origin || allowedOrigins.includes(origin)) {
