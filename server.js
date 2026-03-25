@@ -318,4 +318,6 @@ Provide a clear, concise, and professional answer. If results include IDs (Sales
 const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Backend running on port ${PORT}`);
+
 });
+module.exports = app;
